@@ -1,5 +1,5 @@
 db:
-  host: "ssh.complexdomain.com"
+  host: "localhost"
   user: "testuser"
   pass: "testpass"
   schema: "sakila"
