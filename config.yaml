@@ -1,0 +1,8 @@
+db:
+  host: "ssh.complexdomain.com"
+  user: "testuser"
+  pass: "testpass"
+  schema: "sakila"
+
+query: "select_users"
+limit: 10
