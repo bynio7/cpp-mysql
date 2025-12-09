@@ -8,6 +8,7 @@ należy rozpakować pliki z archiwum tar w /opt/mysql-connector lub odpowiednio 
 
 Inne zależności:
 	sudo apt install g++ build-essential cmake git libssl-dev libboost-all-dev libyaml-cpp-dev
+		
 
 ## Build:
 	git clone https://github.com/bynio7/cpp-mysql
@@ -21,4 +22,4 @@ Inne zależności:
 ## Użycie
 Zmieniamy plik config.yaml i pliki sql z katalogu queries według potrzeb i wywołujemy program:
 	./kod
-
+	
