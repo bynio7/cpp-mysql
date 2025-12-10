@@ -4,5 +4,5 @@ db:
   pass: "testpass"
   schema: "sakila"
 
-query: "select_users"
+query: "select"
 limit: 10

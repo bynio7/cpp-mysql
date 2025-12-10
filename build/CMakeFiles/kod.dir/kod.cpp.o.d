@@ -171,7 +171,46 @@ CMakeFiles/kod.dir/kod.cpp.o: /home/piotr/p-bazy/kod.cpp \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h /usr/include/yaml-cpp/yaml.h \
+ /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/sstream \
+ /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/iomanip \
+ /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h /usr/include/c++/13/ctime \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h \
+ /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc /usr/include/openssl/evp.h \
+ /usr/include/openssl/macros.h \
+ /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
+ /usr/include/x86_64-linux-gnu/openssl/configuration.h \
+ /usr/include/openssl/opensslv.h /usr/include/openssl/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /usr/include/openssl/e_os2.h /usr/include/openssl/safestack.h \
+ /usr/include/openssl/stack.h /usr/include/openssl/core.h \
+ /usr/include/openssl/core_dispatch.h /usr/include/openssl/symhacks.h \
+ /usr/include/openssl/bio.h /usr/include/openssl/crypto.h \
+ /usr/include/c++/13/stdlib.h /usr/include/openssl/cryptoerr.h \
+ /usr/include/openssl/cryptoerr_legacy.h /usr/include/openssl/bioerr.h \
+ /usr/include/openssl/evperr.h /usr/include/openssl/params.h \
+ /usr/include/openssl/bn.h /usr/include/openssl/bnerr.h \
+ /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+ /usr/include/openssl/asn1.h /usr/include/openssl/asn1err.h \
+ /usr/include/openssl/objectserr.h /usr/include/yaml-cpp/yaml.h \
  /usr/include/yaml-cpp/parser.h /usr/include/yaml-cpp/dll.h \
  /usr/include/yaml-cpp/emitter.h /usr/include/c++/13/cmath \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -195,13 +234,9 @@ CMakeFiles/kod.dir/kod.cpp.o: /home/piotr/p-bazy/kod.cpp \
  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/sstream \
- /usr/include/c++/13/bits/sstream.tcc /usr/include/yaml-cpp/binary.h \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/yaml-cpp/emitterdef.h \
- /usr/include/yaml-cpp/emittermanip.h /usr/include/yaml-cpp/null.h \
- /usr/include/yaml-cpp/ostream_wrapper.h \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/yaml-cpp/binary.h \
+ /usr/include/yaml-cpp/emitterdef.h /usr/include/yaml-cpp/emittermanip.h \
+ /usr/include/yaml-cpp/null.h /usr/include/yaml-cpp/ostream_wrapper.h \
  /usr/include/yaml-cpp/emitterstyle.h /usr/include/yaml-cpp/stlemitter.h \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
  /usr/include/c++/13/bits/list.tcc /usr/include/c++/13/set \
@@ -233,13 +268,7 @@ CMakeFiles/kod.dir/kod.cpp.o: /home/piotr/p-bazy/kod.cpp \
  /usr/include/c++/13/bits/hashtable.h \
  /usr/include/c++/13/bits/hashtable_policy.h \
  /usr/include/c++/13/bits/enable_special_members.h \
- /usr/include/c++/13/valarray /usr/include/c++/13/algorithm \
- /usr/include/c++/13/bits/stl_algo.h \
- /usr/include/c++/13/bits/algorithmfwd.h \
- /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
- /usr/include/c++/13/pstl/glue_algorithm_defs.h \
- /usr/include/c++/13/bits/valarray_array.h \
+ /usr/include/c++/13/valarray /usr/include/c++/13/bits/valarray_array.h \
  /usr/include/c++/13/bits/valarray_array.tcc \
  /usr/include/c++/13/bits/valarray_before.h \
  /usr/include/c++/13/bits/slice_array.h \
@@ -302,7 +331,6 @@ CMakeFiles/kod.dir/kod.cpp.o: /home/piotr/p-bazy/kod.cpp \
  /opt/mysql-connector/include/mysqlx/devapi/settings.h \
  /opt/mysql-connector/include/mysqlx/devapi/detail/settings.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
- /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
- /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/bits/parse_numbers.h \
  /opt/mysql-connector/include/mysqlx/devapi/detail/session.h \
  /opt/mysql-connector/include/mysqlx/devapi/detail/../crud.h
