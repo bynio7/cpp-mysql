@@ -85,9 +85,9 @@ int main() {
 					}
 				}
 			}
-			cout << "\n"; // Koniec wiersza danych
+			cout << "\n";
 
-			// Finalizacja hasha
+			// Finalizacja hasza
 			unsigned char hash[EVP_MAX_MD_SIZE];
 			unsigned int hash_len;
 			EVP_DigestFinal_ex(mdctx, hash, &hash_len);
@@ -102,7 +102,6 @@ int main() {
 			computed_hashes.push_back(hex_ss.str());
 		}
 
-		// Sekcja wyświetlania hashy (już po zamknięciu strumienia z bazy)
 		cout << "\n--- OBLICZONE SUMY KONTROLNE (SHA256) ---\n";
 		int row_idx = 1;
 		for (const string& h : computed_hashes) {

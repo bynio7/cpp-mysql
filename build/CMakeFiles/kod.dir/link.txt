@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/kod.dir/kod.cpp.o -o kod   -L/opt/mysql-connector/lib64  -Wl,-rpath,/opt/mysql-connector/lib64 -lyaml-cpp -lmysqlcppconn -lmysqlcppconnx -lssl -lcrypto 
