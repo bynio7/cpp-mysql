@@ -1,3 +1,0 @@
-/home/piotr/p-bazy/build/CMakeFiles/kod.dir
-/home/piotr/p-bazy/build/CMakeFiles/edit_cache.dir
-/home/piotr/p-bazy/build/CMakeFiles/rebuild_cache.dir
