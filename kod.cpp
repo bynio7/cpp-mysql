@@ -77,8 +77,7 @@ int main() {
 							ostringstream strs;
 							strs << row[i].get<double>();
 							string val = strs.str();
-							cout << val;
-							EVP_DigestUpdate(mdctx, val.c_str(), val.length());
+							process(val);
 						} catch (...) {
 							process("NULL");
 						}
