@@ -14,7 +14,7 @@ sudo apt install g++ build-essential cmake git libssl-dev libboost-all-dev libya
 ## Build:
 	git clone https://github.com/bynio7/cpp-mysql
 	mkdir cpp-mysql/build
-	cd build
+	cd cpp-mysql/build
 	cmake ..
 	build -j$(nproc)
 	mv kod ../
