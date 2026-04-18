@@ -16,7 +16,7 @@ using namespace std;
 
 int main() {
 	try {
-		// Konfiguracja
+		// configuration
 		YAML::Node cfg = YAML::LoadFile("config.yaml");
 		string host   = cfg["db"]["host"].as<string>();
 		string user   = cfg["db"]["user"].as<string>();
@@ -25,7 +25,7 @@ int main() {
 		string query_name = cfg["query"].as<string>();
 		int limit = cfg["limit"].as<int>();
 
-		// Wczytanie SQL
+		// SQL query read
 		ifstream t("queries/" + query_name + ".sql");
 		if (!t) {
 			cerr << "Nie mogę otworzyć pliku SQL.\n";
@@ -44,9 +44,9 @@ int main() {
 
 		cout << "--- WYNIKI ZAPYTANIA SQL ---\n";
 
-		// Główna pętla przetwarzania (Single Pass)
+		// Single Pass
 		for (auto row : result) {
-			// Inicjalizacja OpenSSL dla wiersza
+			// OpenSSL initialization for a row
 			EVP_MD_CTX* mdctx = EVP_MD_CTX_new();
 			const EVP_MD* md = EVP_sha256();
 			EVP_DigestInit_ex(mdctx, md, NULL);
@@ -54,7 +54,7 @@ int main() {
 			for (size_t i = 0; i < num_col; i++) {
 				if (i > 0) cout << " | ";
 
-				// wyświetla na ekran + karmi funkcję haszującą
+				// print and feed hash function
 				auto process = [&](string s) {
 					string display_s = s;
 					for (char &c : display_s) {
@@ -86,13 +86,13 @@ int main() {
 			}
 			cout << "\n";
 
-			// Finalizacja hasza
+			// hash finalization
 			unsigned char hash[EVP_MAX_MD_SIZE];
 			unsigned int hash_len;
 			EVP_DigestFinal_ex(mdctx, hash, &hash_len);
 			EVP_MD_CTX_free(mdctx);
 
-			// Konwersja na string HEX i zapisanie do wektora
+			// converts to HEX and saves to vector
 			stringstream hex_ss;
 			hex_ss << hex << setfill('0');
 			for (unsigned int i = 0; i < hash_len; i++) {
