@@ -17,7 +17,7 @@ sudo apt install g++ build-essential cmake git libssl-dev libboost-all-dev libya
     mkdir cpp-mysql/build
     cd cpp-mysql/build
     cmake ..
-    build -j$(nproc)
+    make -j$(nproc)
     mv kod ../
     cd ..
 
@@ -47,7 +47,7 @@ sudo apt install g++ build-essential cmake git libssl-dev libboost-all-dev libya
 	mkdir cpp-mysql/build
 	cd cpp-mysql/build
 	cmake ..
-	build -j$(nproc)
+	make -j$(nproc)
 	mv kod ../
 	cd ..
 
